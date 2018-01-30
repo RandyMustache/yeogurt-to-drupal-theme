@@ -1,0 +1,21 @@
+// Example: @include icon(right, $icon-chevron-down);
+@mixin icon($position:before, $icon:none) {
+
+    @if $position == left {
+        &:before {
+            font-size:1em;
+            font-family: icons;
+            content: $icon
+        }
+    }
+    @if $position == right {
+        &:after {
+            font-size:1em;
+            font-family: icons;
+            content: $icon
+        }
+    }
+    @else {
+
+    }
+}

@@ -1,0 +1,12 @@
+// qa: quick action
+@mixin reset($element, $value:0) {
+    @if $element == ul {
+		list-style: none;
+		padding: 0px;
+		margin: 0px;
+    }
+    @if $element == make_square {
+		width: $value+px;
+		height: $value+px;
+    }
+}

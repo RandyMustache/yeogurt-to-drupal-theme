@@ -1,0 +1,59 @@
+@import "variables";
+
+@font-face {
+  font-family: 'icons';
+  src:  url('#{$icomoon-font-path}/icons.eot?1z8yhe');
+  src:  url('#{$icomoon-font-path}/icons.eot?1z8yhe#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/icons.ttf?1z8yhe') format('truetype'),
+    url('#{$icomoon-font-path}/icons.woff?1z8yhe') format('woff'),
+    url('#{$icomoon-font-path}/icons.svg?1z8yhe#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chevron-right {
+  &:before {
+    content: $icon-chevron-right;
+  }
+}
+.icon-chevron-left {
+  &:before {
+    content: $icon-chevron-left;
+  }
+}
+.icon-chevron-down {
+  &:before {
+    content: $icon-chevron-down;
+  }
+}
+.icon-chevron-up {
+  &:before {
+    content: $icon-chevron-up;
+  }
+}
+.icon-home {
+  &:before {
+    content: $icon-home;
+  }
+}
+.icon-house {
+  &:before {
+    content: $icon-house;
+  }
+}
+

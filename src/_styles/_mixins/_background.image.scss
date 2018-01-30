@@ -1,0 +1,4 @@
+@mixin backgroundimage($name, $format:png, $color:transparent, $position:center center, $repeat:no-repeat, $size: cover) {
+	background: url('#{$image_folder}/#{$name}.#{$format}') $color $repeat $position;
+	background-size: $size;
+}

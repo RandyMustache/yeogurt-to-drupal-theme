@@ -1,0 +1,12 @@
+// Example: @include button(no_chevron_red);
+@mixin button($style:none) {
+  border: 0px;
+
+  @if $style == red {
+    
+  }
+  
+  @else {
+
+  }
+}

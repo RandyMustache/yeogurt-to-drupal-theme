@@ -1,0 +1,17 @@
+{
+    "path": {
+        "local": {
+            "css": "../docroot/themes/custom/mytheme/css",
+            "js": "../docroot/themes/custom/mytheme/js",
+            "images": "../docroot/themes/custom/mytheme/images",
+            "typography": "../docroot/themes/custom/mytheme/typography"
+        },
+        "remote": {
+            "css": "/data/webs/sync-test/docroot/themes/custom/mytheme/css",
+            "js": "/data/webs/sync-test/docroot/themes/custom/mytheme/js",
+            "images": "/data/webs/sync-test/docroot/themes/custom/mytheme/images",
+            "typography": "/data/webs/sync-test/docroot/themes/custom/mytheme/typography"
+        }
+    },
+    "copytoserver": true
+}

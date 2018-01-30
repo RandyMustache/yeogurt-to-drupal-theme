@@ -1,0 +1,26 @@
+@mixin breakpoint($class, $offset:0) {
+    @if $class == small {
+        @media (max-width: 640px + $offset) { @content; }
+    }
+
+    @if $class == medium {
+        @media (max-width: 768px + $offset) { @content; }
+    }
+
+    @if $class == large {
+        @media (max-width: 1024px + $offset) { @content; }
+    }
+
+    @if $class == xlarge {
+        @media (max-width: 1440px + $offset) { @content; }
+    }
+
+    @if $class == custom {
+        @media (max-width: 0px + $offset) { @content; }
+    }
+
+
+    @else {
+        /*@warn  $offset "  Breakpoint not defined";*/
+    }
+}

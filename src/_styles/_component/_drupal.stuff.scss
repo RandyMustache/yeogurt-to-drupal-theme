@@ -1,0 +1,25 @@
+nav {
+  &.tabs {
+    ul {
+      border-bottom: 1px solid #efefef;
+      margin-bottom: 30px;
+    }
+    li {
+      margin-right: -4px;
+    }
+    a {
+      border-color: #efefef #efefef currentcolor;
+      border-image: none;
+      transition: none;
+      border-style: solid solid none;
+      border-width: 1px 1px 0;
+      color: black;
+      padding: 10px 25px;
+      &.is-active{
+        border-bottom: 1px solid white;
+        margin-bottom: -1px;
+        background: white;
+      }
+    }
+  }
+}
